@@ -4,6 +4,7 @@ Este arquivo não possui git ignore, logo basta baixa-lo e usar o comando no ter
 
 Basta antes criar um banco com o nome de "desafio" e criar as seguintes tabelas
 
+```
 CREATE TABLE `tarefas` (
     `id` INT NOT NULL AUTO_INCREMENT,
     `nome` VARCHAR(255) NOT NULL,
@@ -20,5 +21,6 @@ CREATE TABLE `users` (
     `password` VARCHAR(20) NOT NULL,
     PRIMARY KEY(`id`)
 ) ENGINE=INNODB;
+```
 
 cmd, digitar comando nodemon e digitar navegador localhost:3000
